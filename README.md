@@ -1,11 +1,11 @@
-# dao-benchmark
+# JLAB by baijigan 2020
 
 #### 项目介绍
 dao 性能测试，包含jpa，mybatis，beetlsql等Dao工具，测试了插入，修改，查询，翻页查询，orm查询等常用操作性能，以此来优化BeetlSQL性能
 
 #### 运行本例子
 
-* git clone https://gitee.com/xiandafu/dao-benchmark
+* git clone https://github.com/baijigan/jlab.git
 
 * mvn clean package
 
@@ -16,8 +16,6 @@ dao 性能测试，包含jpa，mybatis，beetlsql等Dao工具，测试了插入�
 * 在result目录检测测试文本结果
 
 * 运行 java -jar   target/dao-0.0.1-SNAPSHOT.jar beetlsql jsqlbox  mybatis jpa  可以弹出浏览器，通过echart显示性能对比.参数可以是任意测试目标组合。或者参数用all，则比较所有的dao工具性能
-
-> http://ibeetl.com/pay/ 包含有收费视频讲解如何使用这个测试
 
 
 #### 测试过程说明
@@ -128,7 +126,7 @@ public class DataSourceConfig {
 
 
 
-![](Dao性能测试对比.png)
+![](jlab.png)
 > jdbc 作为基准，性能是最好的，不在列出，有兴趣可以自己测试jdbc并输出测试结果
 > 国内有些Dao并没有经过作者本人许可下不会贴出性能测试结果。如果有兴趣自己测试并输出测试结果
 
